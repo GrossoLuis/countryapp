@@ -1,0 +1,35 @@
+.paginado{
+    display: flex;
+    text-align: none;
+    list-style: none;
+    justify-content: center;
+    gap: 5px;
+    height: auto;
+    width: auto;
+
+}
+
+
+
+.buttonpag{
+    color: rgb(0, 0, 0);
+    background: rgba(59, 138, 202, 0.13);
+
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: none;
+    border: 0px;
+
+}
+
+.buttonpag:hover{
+    background-color: black;
+    color: aquamarine;
+    border-color: black;
+
+
+
+}
+.displaynone{
+    display: none;
+}

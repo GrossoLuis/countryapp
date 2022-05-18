@@ -1,0 +1,43 @@
+
+.nav{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;  
+}
+.creatbtn{
+    background-color: rgb(56, 126, 230);
+    border-radius: 20px;
+    color:rgb(235, 235, 247);
+    cursor: pointer;
+    float: right;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 100;
+    height: 3rem;
+
+}
+
+.input{
+    align-items: center;
+    border-radius: 50px;
+    height: 3rem;
+    width: 40rem;
+    font-size: 1em;
+    font-weight: 600;
+    border-color: black;
+}
+
+.searchbtn{
+
+    background-color: rgb(54, 175, 129);
+    border-radius: 20px;
+    color:rgb(230, 230, 238);
+    cursor: pointer;
+    float: right;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 100;
+    height: 3rem;
+
+}

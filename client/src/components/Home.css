@@ -1,0 +1,58 @@
+.filtros{
+padding-top: 20px;
+display: flex;
+gap: 20px;
+margin-left: 20%;
+
+}
+.refresh{
+    align-items: center;
+    margin-left: 48%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 23px;
+    background: rgba(59, 138, 202, 0.13);
+
+    box-shadow: 0 4px 30px rgba(26, 212, 20, 0.1);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(10, 166, 228, 0.21)
+
+}
+
+.refresh:hover{
+    background-color: black;
+    color: aquamarine;
+    border-color: black;
+
+}
+
+.wrapper{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    justify-items: center;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 24px;
+
+
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+
+
+}
